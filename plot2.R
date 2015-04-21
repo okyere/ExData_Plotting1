@@ -21,8 +21,9 @@ rownames(hpc) = NULL
 png("plot2.png", 480, 480,units = "px")
 
 # plot 2
-plot(x = hpc$dt,y = hpc$Global_active_power,type = "l", xlab = "", 
+plot(x = hpc$dt,y = hpc$Global_active_power,type = "l", xlab = "",
      ylab = "Global Active Power (kilowatts)")
 
 dev.off()
+
 

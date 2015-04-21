@@ -24,7 +24,8 @@ png("plot3.png", 480, 480,units = "px")
 plot(hpc$dt,hpc$Sub_metering_1,type = "l", col = "black", ylab = "Enegry sub metering", xlab ="")
 lines(hpc$dt,hpc$Sub_metering_2,type = "l", col = "red")
 lines(hpc$dt,hpc$Sub_metering_3,type = "l", col = "blue")
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
     col = c("black", "red", "blue"), lty = 1)
 
 dev.off()
+

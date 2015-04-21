@@ -19,7 +19,8 @@ rownames(hpc) = NULL
 png("plot1.png", 480, 480,units = "px")
 
 # plot 1
-hist(hpc$Global_active_power,xlab = "Global Active Power (kilowatts)", col = "red", 
+hist(hpc$Global_active_power,xlab = "Global Active Power (kilowatts)", col = "red",
      main = "Global Active Power")
 
 dev.off()
+
